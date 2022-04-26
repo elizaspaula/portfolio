@@ -1,0 +1,21 @@
+@use "../../styles/colors" as *;
+@use "../../styles/mixins" as *;
+@use "../../styles//variables" as *;
+@use "../../styles//typography" as *;
+
+.home {
+  padding: 3rem 1rem;
+  background-image: url("../../assets/images/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__hero {
+    padding: 9rem 0 2rem 0;
+  }
+
+  &__title {
+    line-height: 4rem;
+    text-align: center;
+  }
+}

@@ -1,0 +1,38 @@
+@use "../../styles/colors" as *;
+@use "../../styles/mixins" as *;
+@use "../../styles//variables" as *;
+
+.header {
+  background-color: $primary-color-neutral;
+  padding: 1rem;
+}
+
+.nav {
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+  &__link {
+    @include links;
+    font-size: 13px;
+  }
+
+  &__left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  &__mid-desktop,
+  &__right-desktop {
+    display: none;
+  }
+
+  &__logo {
+    width: 8rem;
+    height: 8rem;
+  }
+}
