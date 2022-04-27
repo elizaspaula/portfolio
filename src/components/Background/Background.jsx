@@ -1,4 +1,7 @@
 import "./Background.scss";
+import frontendicon from "../../assets/icons/frontend_icon.svg";
+import backendicon from "../../assets/icons/backend_icon.svg";
+import othericon from "../../assets/icons/other_icon.svg";
 
 function Background() {
   return (
@@ -26,7 +29,16 @@ function Background() {
           </div>
           <div className="skills__wrapper">
             <div className="skills__content">
-              <h2 className="skills__subtitle"> Front-End</h2>
+              <div className="skills__content-header">
+                <figure className="skills__image">
+                  <img
+                    className="skills__icon"
+                    src={frontendicon}
+                    alt="front end icon"
+                  />
+                </figure>
+                <h2 className="skills__subtitle"> Front-end</h2>
+              </div>
               <ul className="skills__list">
                 <li className="skills__item">React</li>
                 <li className="skills__item">JavaScript</li>
@@ -39,7 +51,16 @@ function Background() {
               </ul>
             </div>
             <div className="skills__content">
-              <h2 className="skills__subtitle"> Back-End</h2>
+              <div className="skills__content-header">
+                <figure className="skills__image">
+                  <img
+                    className="skills__icon"
+                    src={backendicon}
+                    alt="front end icon"
+                  />
+                </figure>
+                <h2 className="skills__subtitle"> Back-end</h2>
+              </div>
               <ul className="skills__list">
                 <li className="skills__item">Node</li>
                 <li className="skills__item">Express</li>
@@ -50,7 +71,16 @@ function Background() {
               </ul>
             </div>
             <div className="skills__content">
-              <h2 className="skills__subtitle">Others</h2>
+              <div className="skills__content-header">
+                <figure className="skills__image">
+                  <img
+                    className="skills__icon"
+                    src={othericon}
+                    alt="front end icon"
+                  />
+                </figure>
+                <h2 className="skills__subtitle">Other Tools</h2>
+              </div>
               <ul className="skills__list">
                 <li className="skills__item">GitHub</li>
                 <li className="skills__item">Jira</li>
@@ -67,11 +97,58 @@ function Background() {
         <article className="projects">
           <div className="projects__header">
             <h2 class="projects__title">My Projects</h2>
+            <p className="projects__content">
+              Here are a few design projects I've worked on recently. Want to
+              see more? <a> Email me. </a>
+            </p>
           </div>
-          <ul className="projects__container">
-            <li>Fatec</li>
-            <li>BrainStation</li>
-          </ul>
+          <div className="projects__container">
+            <h2 className="projects__subtitle">Coffee Shop</h2>
+            <p className="projects__stack">HTML | CSS</p>
+            <a href="/website" className="projects__btn">
+              Visit the website
+            </a>
+          </div>
+
+          <div className="projects__container">
+            <h2 className="projects__subtitle">Travel Site</h2>
+            <p className="projects__stack">HTML | CSS</p>
+            <a href="/website" className="projects__btn">
+              Visit the website
+            </a>
+          </div>
+
+          <div className="projects__container">
+            <h2 className="projects__subtitle">Band Site</h2>
+            <p className="projects__stack">HTML | CSS</p>
+            <a href="/website" className="projects__btn">
+              Visit the website
+            </a>
+          </div>
+
+          <div className="projects__container">
+            <h2 className="projects__subtitle">BrainFlix</h2>
+            <p className="projects__stack">HTML | CSS</p>
+            <a href="/website" className="projects__btn">
+              Visit the website
+            </a>
+          </div>
+
+          <div className="projects__container">
+            <h2 className="projects__subtitle">InStock</h2>
+            <p className="projects__stack">HTML | CSS</p>
+            <a href="/website" className="projects__btn">
+              Visit the website
+            </a>
+          </div>
+
+          <div className="projects__container">
+            <h2 className="projects__subtitle">MeowFinder</h2>
+            <p className="projects__stack">HTML | CSS</p>
+            <a href="/website" className="projects__btn">
+              Visit the website
+            </a>
+          </div>
         </article>
       </div>
     </>

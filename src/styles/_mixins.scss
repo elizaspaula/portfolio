@@ -41,6 +41,7 @@
   color: $primary-color-background;
   transition: 0.5s ease-in-out;
   @include flexed(row, center, center);
+  border-radius: 20px;
 
   &:hover {
     background-color: $secondary-color-details;
@@ -50,4 +51,5 @@
 @mixin cards {
   box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
   background-color: $primary-color-background;
+  border-radius: 0.625rem;
 }
