@@ -1,0 +1,52 @@
+@use "../../styles/colors" as *;
+@use "../../styles/mixins" as *;
+@use "../../styles//variables" as *;
+
+.background {
+  background-color: $primary-color-background;
+  padding: 1rem 0;
+}
+
+.about {
+  padding: 0 1rem;
+  &__title {
+    text-transform: uppercase;
+  }
+}
+
+.skills {
+  background-color: $primary-color-neutral;
+  padding: 0 1rem;
+
+  &__item {
+    font-size: 0.8125rem;
+    line-height: 1.25rem;
+  }
+  &__header {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  &__content {
+    padding-bottom: 1rem;
+    @include cards;
+  }
+  &__title {
+    text-transform: uppercase;
+  }
+}
+
+.projects {
+  &__header {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+  &__title {
+    text-transform: uppercase;
+  }
+}
