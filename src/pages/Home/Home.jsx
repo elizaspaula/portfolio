@@ -1,6 +1,7 @@
 import "./Home.scss";
 import HeaderNav from "../../components/HeaderNav/HeaderNav";
 import Background from "../../components/Background/Background";
+import ContactForm from "../../components/ContactForm/ContactForm";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
           <button className="hero__btn">Download Resume PDF</button>
         </div>
         <Background />
+        <ContactForm />
       </div>
     </>
   );

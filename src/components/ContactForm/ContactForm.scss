@@ -1,0 +1,26 @@
+@use "../../styles/colors" as *;
+@use "../../styles/mixins" as *;
+@use "../../styles//variables" as *;
+
+.contact {
+  background-color: $secondary-color-details;
+  padding: 1rem;
+
+  &__title {
+    text-transform: uppercase;
+    color: $primary-color-background;
+    padding-bottom: 0.5rem;
+  }
+
+  &__content {
+    color: $primary-color-background;
+    padding-bottom: 1rem;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+}
