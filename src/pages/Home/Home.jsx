@@ -1,7 +1,7 @@
 import "./Home.scss";
 import HeaderNav from "../../components/HeaderNav/HeaderNav";
 import Background from "../../components/Background/Background";
-import ContactForm from "../../components/ContactForm/ContactForm";
+import Footer from "../../components/Footer/Footer";
 
 function Home() {
   return (
@@ -17,7 +17,7 @@ function Home() {
         </div>
       </div>
       <Background />
-      <ContactForm />
+      <Footer />
     </>
   );
 }

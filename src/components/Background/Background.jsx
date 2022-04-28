@@ -106,7 +106,7 @@ function Background() {
             </div>
 
             <div className="projects__wrapper">
-              <div className="projects__container">
+              <div className="projects__container coffeeshop">
                 <h2 className="projects__subtitle">Coffee Shop</h2>
                 <p className="projects__stack">HTML | CSS</p>
                 <a href="/website" className="projects__btn">
@@ -114,7 +114,7 @@ function Background() {
                 </a>
               </div>
 
-              <div className="projects__container">
+              <div className="projects__container travelsite">
                 <h2 className="projects__subtitle">Travel Site</h2>
                 <p className="projects__stack">HTML | CSS | BEM</p>
                 <a href="/website" className="projects__btn">
@@ -122,32 +122,32 @@ function Background() {
                 </a>
               </div>
 
-              <div className="projects__container">
+              <div className="projects__container bandsite">
                 <h2 className="projects__subtitle">BandSite</h2>
-                <p className="projects__stack">JS | SaSS | API</p>
+                <p className="projects__stack">JS | SASS | API</p>
                 <a href="/website" className="projects__btn">
                   Visit the website
                 </a>
               </div>
 
-              <div className="projects__container">
+              <div className="projects__container brainflix">
                 <h2 className="projects__subtitle">BrainFlix</h2>
-                <p className="projects__stack"> React | SaSS </p>
+                <p className="projects__stack"> React | SASS | BEM </p>
                 <a href="/website" className="projects__btn">
                   Visit the website
                 </a>
               </div>
 
-              <div className="projects__container">
+              <div className="projects__container instock">
                 <h2 className="projects__subtitle">InStock</h2>
-                <p className="projects__stack">React | SaSS | Node | Express</p>
+                <p className="projects__stack">React | SASS | Node | Express</p>
                 <a href="/website" className="projects__btn">
                   Visit the website
                 </a>
               </div>
-              <div className="projects__container">
+              <div className="projects__container meowfinder">
                 <h2 className="projects__subtitle">MeowFinder</h2>
-                <p className="projects__stack">HTML | CSS</p>
+                <p className="projects__stack">React | SASS | Node | MongoDB</p>
                 <a href="/website" className="projects__btn">
                   Visit the website
                 </a>

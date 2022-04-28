@@ -159,7 +159,14 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: aqua;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s ease-in-out;
+
+    &:hover {
+      opacity: 0.9;
+    }
 
     @include tablet {
       height: 180px;
@@ -175,12 +182,13 @@
     font-size: 1.25rem;
     padding-bottom: 0.5rem;
     text-align: center;
+    color: $primary-color-background;
   }
 
   &__btn {
     text-decoration: none;
-    color: $primary-color-btn;
-    border: 0.0625rem solid $primary-color-btn;
+    color: $primary-color-background;
+    border: 0.0625rem solid $primary-color-background;
     border-radius: 20px;
     font-size: 0.8125rem;
     width: 160px;
@@ -189,16 +197,11 @@
     align-items: center;
     justify-content: center;
     align-content: center;
-    transition: 0.5s ease-in-out;
-
-    &:hover {
-      border: 0.0625rem solid $secondary-color-details;
-      color: $secondary-color-details;
-    }
   }
 
   &__stack {
     padding-bottom: 1rem;
+    color: $primary-color-background;
     @include tablet {
       padding-bottom: 2rem;
     }
@@ -222,5 +225,35 @@
       max-width: 80rem;
       margin: 0 auto;
     }
+  }
+
+  .coffeeshop {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../../assets/images/coffee-beans.jpeg);
+  }
+
+  .travelsite {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../../assets/images/hawaii.jpg);
+  }
+
+  .bandsite {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../../assets/images/bandsite.jpg);
+  }
+
+  .brainflix {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../../assets/images/brainflix.jpeg);
+  }
+
+  .instock {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../../assets/images/instock.jpeg);
+  }
+
+  .meowfinder {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../../assets/images/meowfinder.jpeg);
   }
 }

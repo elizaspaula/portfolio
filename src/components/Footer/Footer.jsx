@@ -1,9 +1,9 @@
-import "./ContactForm.scss";
+import "./Footer.scss";
 import emailicon from "../../assets/icons/email_icon.svg";
 import linkedinicon from "../../assets/icons/linkedin_icon.svg";
 import githubicon from "../../assets/icons/github_icon.svg";
 
-function ContactForm() {
+function Footer() {
   return (
     <>
       <div className="contact">
@@ -41,7 +41,9 @@ function ContactForm() {
           <div className="contact__icons">
             <a
               className="contact__link"
-              href="mailto:elizabete.silvapaula@gmail.com"
+              href="https://github.com/elizaspaula"
+              target="_blank"
+              rel="noreferrer"
             >
               <img
                 className="contact__img"
@@ -61,4 +63,4 @@ function ContactForm() {
   );
 }
 
-export default ContactForm;
+export default Footer;
