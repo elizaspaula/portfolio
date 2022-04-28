@@ -3,13 +3,26 @@
 @use "../../styles//variables" as *;
 
 .header {
-  background-color: $secondary-color-background;
   padding: 0 1rem;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  opacity: 0.85;
-  z-index: 1;
+
+  &__wrapper-bck {
+    background-color: $primary-color-neutral;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.85;
+    z-index: 1;
+  }
+
+  @include tablet {
+    padding: 0.5rem 2rem;
+  }
+
+  @include desktop {
+    padding: 0.5rem 3rem;
+    max-width: 80rem;
+    margin: 0 auto;
+  }
 }
 
 .nav {
@@ -31,6 +44,11 @@
     @include links;
     padding: 15px 0;
     width: 100%;
+    transition: 0.5s ease-in-out;
+
+    &:hover {
+      color: $secondary-color-details;
+    }
   }
 
   &__left {
@@ -39,14 +57,19 @@
     gap: 1rem;
   }
 
-  &__item-desktop {
-    display: none;
-  }
-
   &__link-logo {
     font-family: "Pacifico", cursive;
     font-size: 1.25rem;
     text-decoration: none;
     color: $primary-color-btn;
+    transition: 0.5s ease-in-out;
+
+    &:hover {
+      color: $secondary-color-details;
+    }
+
+    @include tablet {
+      font-size: 1.875rem;
+    }
   }
 }

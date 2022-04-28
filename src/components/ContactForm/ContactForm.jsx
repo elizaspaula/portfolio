@@ -7,15 +7,21 @@ function ContactForm() {
   return (
     <>
       <div className="contact">
-        <h2 className="contact__title">Connect</h2>
-        <p className="contact__content">Let's work together !</p>
+        <h2 className="contact__title">
+          Connect
+          <span className="contact__headline">
+            {" "}
+            - Let's work together !
+          </span>{" "}
+        </h2>
+        <p className="contact__content"></p>
         <div className="contact__wrapper">
           <div className="contact__icons">
             <a
               className="contact__link"
               href="mailto:elizabete.silvapaula@gmail.com"
             >
-              <img src={emailicon} alt="email icon" />
+              <img className="contact__img" src={emailicon} alt="email icon" />
             </a>
           </div>
 
@@ -24,7 +30,11 @@ function ContactForm() {
               className="contact__link"
               href="mailto:elizabete.silvapaula@gmail.com"
             >
-              <img src={linkedinicon} alt="email icon" />
+              <img
+                className="contact__img"
+                src={linkedinicon}
+                alt="linkedin icon"
+              />
             </a>
           </div>
 
@@ -33,9 +43,18 @@ function ContactForm() {
               className="contact__link"
               href="mailto:elizabete.silvapaula@gmail.com"
             >
-              <img src={githubicon} alt="email icon" />
+              <img
+                className="contact__img"
+                src={githubicon}
+                alt="github icon"
+              />
             </a>
           </div>
+        </div>
+        <div className="contact__copyright">
+          <p className="contact__content-copyright">
+            Copyright © 2022 Elizabete Paula
+          </p>
         </div>
       </div>
     </>

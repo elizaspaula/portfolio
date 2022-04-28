@@ -6,15 +6,22 @@
   background-color: $secondary-color-details;
   padding: 1rem;
 
+  @include tablet {
+    padding: 2rem;
+  }
+
   &__title {
     text-transform: uppercase;
     color: $primary-color-background;
-    padding-bottom: 0.5rem;
+    text-align: center;
   }
 
   &__content {
     color: $primary-color-background;
     padding-bottom: 1rem;
+    @include tablet {
+      padding-bottom: 2rem;
+    }
   }
 
   &__wrapper {
@@ -22,5 +29,25 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
+  }
+
+  &__img {
+    width: 40px;
+    height: 40px;
+  }
+
+  &__headline {
+    font-weight: 300;
+  }
+
+  &__content-copyright {
+    font-size: 0.625rem;
+    padding-top: 1rem;
+    color: $primary-color-background;
+    text-align: center;
+
+    @include tablet {
+      padding-top: 2rem;
+    }
   }
 }

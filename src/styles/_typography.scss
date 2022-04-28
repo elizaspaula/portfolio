@@ -50,14 +50,14 @@ body {
 @include tablet {
   //Page Header
   h1 {
-    font-size: 2.0625rem;
+    font-size: 3rem;
     line-height: 2.75rem;
     font-weight: 700;
   }
 
   //Section Header
   h2 {
-    font-size: 1.375rem;
+    font-size: 1rem;
     line-height: 1.25rem;
     font-weight: 700;
   }
@@ -72,8 +72,8 @@ body {
   //Body Copy
   body {
     p {
-      font-size: 0.875rem;
-      line-height: 1.375rem;
+      font-size: 0.9375rem;
+      line-height: 1.5rem;
       font-weight: 300;
     }
   }
@@ -87,8 +87,8 @@ body {
   }
 
   .links {
-    font-size: 1.125rem;
+    font-size: 1rem;
     line-height: 1.25rem;
-    font-weight: 600;
+    font-weight: 300;
   }
 }

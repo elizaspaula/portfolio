@@ -8,14 +8,16 @@ function Home() {
     <>
       <HeaderNav />
       <div className="home">
-        <div className="hero">
-          <p className="hero__content"> Hey there, I am Elizabete</p>
-          <h1 className="hero__title">Full-Stack Developer</h1>
-          <button className="hero__btn">Download Resume PDF</button>
+        <div className="hero__wrapper-bck">
+          <div className="hero">
+            <p className="hero__content"> Hey there, I am Elizabete</p>
+            <h1 className="hero__title">Full-Stack Developer</h1>
+            <button className="hero__btn">Download Resume PDF</button>
+          </div>
         </div>
-        <Background />
-        <ContactForm />
       </div>
+      <Background />
+      <ContactForm />
     </>
   );
 }

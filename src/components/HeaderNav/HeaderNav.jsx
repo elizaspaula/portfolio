@@ -1,9 +1,8 @@
 import "./HeaderNav.scss";
-import logo from "../../assets/logo/logo.svg";
 
 function HeaderNav() {
   return (
-    <>
+    <div className="header__wrapper-bck">
       <div className="header">
         <nav className="nav">
           <div className="nav__logo">
@@ -22,16 +21,10 @@ function HeaderNav() {
                 Portfolio
               </a>
             </li>
-
-            <li className="nav__item-desktop">
-              <a className="nav__contact mobile" href="/contact">
-                Contact
-              </a>
-            </li>
           </ul>
         </nav>
       </div>
-    </>
+    </div>
   );
 }
 
