@@ -13,14 +13,13 @@ function Background() {
               <h2 class="about__title">About </h2>
             </div>
             <div className="about__container">
-              <p class="about__content">
-                I’m a multi-focused designer working on interfaces and branding
-                for digital products. Award winning interdisciplinary Designer &
-                Art director. a team who specialise in coding websites and
-                themes of style and function for a wide range of interactive.
-                Lorem ipsum dolor sit consectetur adipiscing morbi venenatis et
-                tortor consectetur adipisicing lacinia. Check my works there
-                Dribbble, Behance and Twitter dolor sit amet consectetur.
+              <p class="about__content" id="about">
+                My passion for technology comes from my experience as a System
+                Analyst. I love the challenge of facing project problems and
+                delivering solutions that make people's life easier. My
+                experience as a System Analyst gives me the ability to see
+                problems from a bird's eye view and helps me design better, more
+                robust solutions.
               </p>
             </div>
           </article>
@@ -98,42 +97,34 @@ function Background() {
 
           <article className="projects">
             <div className="projects__header">
-              <h2 class="projects__title">Projects</h2>
+              <h2 class="projects__title" id="projects">
+                Projects
+              </h2>
               <p className="projects__content">
                 Here are a few design projects I've worked on recently. Want to
-                see more? <a> Email me. </a>
+                see more?{" "}
+                <a
+                  className="projects__link"
+                  href="mailto:elizabete.silvapaula@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  Email me.{" "}
+                </a>
               </p>
             </div>
 
             <div className="projects__wrapper">
-              <div className="projects__container coffeeshop">
-                <h2 className="projects__subtitle">Coffee Shop</h2>
-                <p className="projects__stack">HTML | CSS</p>
-                <a href="/website" className="projects__btn">
-                  Visit the website
-                </a>
-              </div>
-
-              <div className="projects__container travelsite">
-                <h2 className="projects__subtitle">Travel Site</h2>
-                <p className="projects__stack">HTML | CSS | BEM</p>
-                <a href="/website" className="projects__btn">
-                  Visit the website
-                </a>
-              </div>
-
-              <div className="projects__container bandsite">
-                <h2 className="projects__subtitle">BandSite</h2>
-                <p className="projects__stack">JS | SASS | API</p>
-                <a href="/website" className="projects__btn">
-                  Visit the website
-                </a>
-              </div>
-
-              <div className="projects__container brainflix">
-                <h2 className="projects__subtitle">BrainFlix</h2>
-                <p className="projects__stack"> React | SASS | BEM </p>
-                <a href="/website" className="projects__btn">
+              <div className="projects__container meowfinder">
+                <h2 className="projects__subtitle">MeowFinder</h2>
+                <p className="projects__stack">React | SASS | Node | MongoDB</p>
+                <a
+                  href="https://meowfinder.netlify.app/"
+                  className="projects__btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Visit the website
                 </a>
               </div>
@@ -141,14 +132,63 @@ function Background() {
               <div className="projects__container instock">
                 <h2 className="projects__subtitle">InStock</h2>
                 <p className="projects__stack">React | SASS | Node | Express</p>
-                <a href="/website" className="projects__btn">
+                <a
+                  href="https://elizabete-paula-instock.netlify.app/"
+                  className="projects__btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Visit the website
                 </a>
               </div>
-              <div className="projects__container meowfinder">
-                <h2 className="projects__subtitle">MeowFinder</h2>
-                <p className="projects__stack">React | SASS | Node | MongoDB</p>
-                <a href="/website" className="projects__btn">
+
+              <div className="projects__container brainflix">
+                <h2 className="projects__subtitle">BrainFlix</h2>
+                <p className="projects__stack"> React | SASS | BEM </p>
+                <a
+                  href="https://elizabete-paula-brainflix.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="projects__btn"
+                >
+                  Visit the website
+                </a>
+              </div>
+
+              <div className="projects__container bandsite">
+                <h2 className="projects__subtitle">BandSite</h2>
+                <p className="projects__stack"> JS | SASS | API </p>
+                <a
+                  href="https://elizabete-paula-bandsite.netlify.app/"
+                  className="projects__btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Visit the website
+                </a>
+              </div>
+
+              <div className="projects__container travelsite">
+                <h2 className="projects__subtitle">TravelSite</h2>
+                <p className="projects__stack">HTML | CSS | BEM</p>
+                <a
+                  href="https://elizabete-travelsite.netlify.app/"
+                  className="projects__btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Visit the website
+                </a>
+              </div>
+              <div className="projects__container coffeeshop">
+                <h2 className="projects__subtitle">Coffee Shop</h2>
+                <p className="projects__stack">HTML | CSS | BEM </p>
+                <a
+                  href="https://elizabete-coffeeshop.netlify.app/"
+                  className="projects__btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Visit the website
                 </a>
               </div>

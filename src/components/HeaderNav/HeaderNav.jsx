@@ -12,12 +12,12 @@ function HeaderNav() {
           </div>
           <ul className="nav__list">
             <li className="nav__item">
-              <a className="nav__link links" href="/about">
+              <a className="nav__link links" href="#about">
                 About
               </a>
             </li>
             <li className="nav_item">
-              <a className="nav__link links" href="/portfolio">
+              <a className="nav__link links" href="#projects">
                 Portfolio
               </a>
             </li>

@@ -20,6 +20,8 @@ function Footer() {
             <a
               className="contact__link"
               href="mailto:elizabete.silvapaula@gmail.com"
+              target="_blank"
+              rel="noreferrer"
             >
               <img className="contact__img" src={emailicon} alt="email icon" />
             </a>
@@ -28,7 +30,9 @@ function Footer() {
           <div className="contact__icons">
             <a
               className="contact__link"
-              href="mailto:elizabete.silvapaula@gmail.com"
+              href="https://www.linkedin.com/in/elizabete-paula/?locale=en_US"
+              target="_blank"
+              rel="noreferrer"
             >
               <img
                 className="contact__img"
