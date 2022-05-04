@@ -17,9 +17,13 @@ function Background() {
                 My passion for technology comes from my experience as a System
                 Analyst. I love the challenge of facing project problems and
                 delivering solutions that make people's life easier. My
-                experience as a System Analyst gives me the ability to see
-                problems from a bird's eye view and helps me design better, more
-                robust solutions.
+                experience as a System Analyst gives me the ability to approach
+                solutions from a logical perspective and helps me design better,
+                more robust solutions. My motivation for switching career paths
+                is to immerse myself in a constantly evolving industry. I am
+                eager to tackle new challenges, contribute my creativity and
+                problem-solving skills to the team, and start a career in web
+                development.
               </p>
             </div>
           </article>
